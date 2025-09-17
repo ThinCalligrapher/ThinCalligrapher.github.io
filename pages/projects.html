@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>Chad's Projects</title>
+<meta charset='UTF-8'/>
+<link rel='stylesheet' href='../styles.css'/>
+</head>
+<body>
+    <div class="header">
+        <h1>My Projects</h1>
+    </div>
+    <div id="menu">
+        <a href="../index.html">About Me</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./boxes.html">Boxes</a>
+        <a href="./contact.html">Contact Me</a>
+    </div>
+    <div id="large_spacer"></div>
+    <div class="lab-container">
+        <div class="text">
+            <h3 class="subheading">The CMS Lab</h3>
+            <h4 class="sub-subheading">Head of Engineering</h4>
+            <p>
+                I have been involved in many things in my time at University,
+                and there are a few things that I am truly proud of. First, obviously, is this
+                website. But the biggest project that I have taken part of is the CMS reserach lab,
+                led by Dr. Usai and Dr. Gleyzer.
+            </p>
+            <div id="paragraph_spacer"></div>
+            <p>
+                The <strong>CMS</strong> (Compact Muon Solenoid) is a detector at the Large Hadron Collider at CERN.
+                This detector is responsible for the discovery of the Higgs Boson particle, which may help us 
+                explain gravity. It is one of many detectors at CERN, and there is somewhat of a rivalry
+                between them. CMS is currently undergoing a multi-year major upgrade. This will be completed in 2029.
+                But right now, there are in the prototyping and development stage of new detectors. These
+                detectors will be composed of tens of thousands of hexaboards.
+            </p>
+            <div id="paragraph_spacer"></div>
+            <p>
+                <em>What is a hexaboard?</em> I am glad you asked! A hexaboard is an approximately 20cm wide
+                hexagonal circuit board. These boards will be arranged in cassetes. These cassets will be triangle shaped,
+                and approximately 10 feet tall. These triangles will be positioned 360 degrees around the collider to
+                detect muons. Our lab is responsible for testing some of the hexaboards, which is an intensive process.
+            </p>
+            <div id="paragraph_spacer"></div>
+            <p>
+                Testing these boards consists of a 1kV high voltage test, freezing them to -40 degrees C, and 
+                a flatness test. Our lab will be responsible for a few thousand of these. I arrived at the lab when
+                we only had 3 of them, so we had to develop our battery of tests on limited information, and 
+                without a standardized process. The problems I have helped solve are:
+            </p>
+            <ul id="problems">
+                <li class="prob">Fixing python package errors</li>
+                <li class="prob">Debugging issues with a CERN developed Linux Distro</li>
+                <li class="prob">Developing and testing a dry air system to reach a dewpoint of -60 degrees C</li>
+                <li class="prob">Developing Python scripts to analyze jagged JSONs</li>
+                <li class="prob"><strong>And so much more!</strong></li>
+            </ul>
+            <div id="paragraph_spacer"></div>
+            <p>
+                After months of hard work, being consistent, and proving myself I was officially promoted to <em>Head of Engineering</em>
+                This was a teremendous feat for me, and something I am extremely proud of. But the lab has had many more benefits beyond my position!
+            </p>
+        </div>
+        <div class="images">
+            <img class="cms" src="../images/cms1.png">
+            <img class="cms" src="../images/cms2.png">
+        </div>
+    </div>
+    <div class="lab-container">
+        <div class="text">
+            <h3 class="subheading">Machine Learning</h3>
+            <h4 class="sub-subheading">Developing and Dockerizing a Model</h4>
+            <div id="paragraph_spacer"></div>
+            <p>
+                A major part of the lab are the PhD students. They are mainly responsible for analyzing the 
+                data that comes from the CMS. And something that was extremely enlightening to me was how 
+                <strong>machine learning</strong> has changed the world of particle physics.
+            </p>
+            <p>
+                The CMS creates petabytes of data per second. It's too much data if everyone in the world was working at CERN.
+                But machine learning can recognize patterns, spot new ones, and detect particles much faster than the most seasoned
+                physicists. I have spent countless hours in the lab, and in this time I became very interested in the work of the data scientists
+                who analyze the data from the CMS under Dr. Usai. This inspired my to make my own rudimentary model, and solve some problems.
+            </p>
+            <div id="paragraph_spacer"></div>
+            <p>
+                <a href="https://github.com/ThinCalligrapher/mnist-docker" target="_blank">Here</a> is my model on GitHub. If you want to run it, follow the instructions in the readme!
+            </p>
+            <div id="paragraph_spacer"></div>
+            <p>
+                My model uses a simple feedforward neural network to identify numbers 0-9.
+                With limited training, it is capable of over 97% accuracy. Building it has taught me so much
+                about PyTorch, the math behind machine learning, data science, and graphing data. But I incorporated one
+                more skill I have into this model
+            </p>
+            <div id="paragraph_spacer"></div>
+            <p>
+                <strong>Dockerizing the model.</strong> The lab has a computing cluster consisting of 3 A100 GPUs and 2 FPGAs
+                inside of a 9 server cluster. This cluster is used by the data sciencists to run and train models. There are other elements of machine
+                learning being used in the lab as well for visual inspection, which I am continuing to play a major role in.
+                But I was immediately interested in the cluster when I arrived in the lab and I have been training on administering access to
+                other students. Part of my training was learning how to use Docker, which containerizes applications to be used 
+                by anyone anywhere.
+            </p>
+            <div id="paragraph_spacer"></div>
+            <p>
+                I have containerized my model, so that anyone with any version of Python can run my model without and dependecy issues. 
+                Docker is quickly becoming the main method of distributed software development and deployment, as many companies use Docker to
+                create containers that run the client experience of an application.
+                Please feel free to check it out!
+            </p>
+        </div>
+        <div class="images">
+            <img class="cms" src="../images/model2.png">
+        </div>
+    </div>
+
+</body>
+</html>

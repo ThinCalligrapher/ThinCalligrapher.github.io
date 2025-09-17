@@ -1,0 +1,32 @@
+.intro {
+  text-align: center;
+  margin: 20px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  margin: 20px auto;
+  gap: 10px;
+}
+
+.box {
+  flex: 1;
+  min-height: 100px;
+  border: 3px solid black;
+}
+
+/* Color variations */
+.red { background: lightcoral; }
+.blue { background: lightblue; }
+.green { background: lightgreen; }
+.yellow { background: lightyellow; }
+.purple { background: plum; }
+
+/* Shape variations */
+.tall {
+  min-height: 200px;
+}

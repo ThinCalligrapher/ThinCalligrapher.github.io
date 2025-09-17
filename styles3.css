@@ -1,0 +1,26 @@
+.intro {
+  text-align: center;
+  margin: 20px;
+  font-size: large;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  margin: 20px auto;
+  gap: 10px;
+}
+
+.contact-box {
+  flex: 1;
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+
+/* simple background colors */
+.email { background: lightblue; }
+.github { background: lightgreen; }
+.phone { background: lightcoral; }
