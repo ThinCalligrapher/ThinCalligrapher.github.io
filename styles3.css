@@ -24,3 +24,19 @@
 .email { background: lightblue; }
 .github { background: lightgreen; }
 .phone { background: lightcoral; }
+
+
+.pdf-container {
+    display: flex;
+    margin: 0px auto;
+    width: 900px;
+    height: auto;
+    justify-content: center;
+}
+
+.pdf-container iframe {
+    
+    flex: 1;
+}
+
+
